@@ -1,4 +1,4 @@
-﻿using OpenQA.Selenium;
+using OpenQA.Selenium;
 
 namespace MyTest.support
 {
@@ -27,7 +27,6 @@ namespace MyTest.support
                 throw new Exception($"Not could find the element using " +
                     $"these parameters: \"{element}\". WARNING:", ex);
             }
-
         }
 
         public void FillIn(By element, string text)
